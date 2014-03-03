@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CRITalign</title>
+        <meta name="description" content="CRITalign: IT, Data, and Business consulting">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/glyphicons.css">
+        <link rel="stylesheet" href="css/social.css">
+        <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+            {% include header.html %}
+            <div class="main-container">
+                <div class="main wrapper clearfix">
+                    {{ content }}
+                </div> <!-- #main -->
+            </div> <!-- #main-container -->
+            {% include footer.html %}
+            {% include jquery.html %}
+            {% include analytics.html %}
+    </body>
+</html>
