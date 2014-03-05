@@ -46,6 +46,7 @@ fieldset {
 
 textarea {
     resize: vertical;
+    width:30%;
 }
 
 .chromeframe {
@@ -181,7 +182,10 @@ nav a:hover {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
+    textarea {
+        resize: vertical;
+        width:75%;
+    }
     nav a {
         float: left;
         width: 27%;
@@ -231,7 +235,10 @@ nav a:hover {
     .title {
         float: left;
     }
-
+    textarea {
+        resize: vertical;
+        width:50%;
+    }
     nav {
         float: right;
         width: 38%;
@@ -257,7 +264,10 @@ nav a:hover {
 /* ===============
     Maximal Width
    =============== */
-
+   textarea {
+        resize: vertical;
+        width:30%;
+    }
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
